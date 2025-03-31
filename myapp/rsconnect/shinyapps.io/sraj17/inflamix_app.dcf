@@ -1,0 +1,12 @@
+name: inflamix_app
+title: InflaMix_App
+username: sraj17
+account: sraj17
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13120550
+bundleId: 9264963
+url: https://sraj17.shinyapps.io/inflamix_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

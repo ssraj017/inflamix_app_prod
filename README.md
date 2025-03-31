@@ -1,2 +1,2 @@
-# inflamix_app_prod
-InflaMix Application
+# inflamix_app
+InflaMix Shiny
