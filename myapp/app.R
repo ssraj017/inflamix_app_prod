@@ -26,7 +26,8 @@ ui <- fluidPage(
       tags$div(
         tags$ul(
           tags$li("Please enter atleast 2 lab values to generate a cluster assignment. InflaMix performance has been validated with availability of at least the first 6 labs (Hgb, Albumin, LDH, CRP, ALP, AST)"),
-          tags$li("Pre-Infusion means measured within 48 hours before CAR-T infusion.")
+          tags$li("Pre-Infusion means measured within 48 hours before CAR-T infusion."),
+          tags$li("Terms of Use for InflaMix are detailed at https://github.com/vdblab/InflaMix/blob/main/LICENSE. Briefly, InflaMix is intended for educational and research use only and is not yet intended for clinical use or as a medical device."),
         )
       ),
       br(),
@@ -219,9 +220,9 @@ ui <- fluidPage(
                  br(),
                  h4("These findings were validated in three independent cohorts of patients with non-Hodgkin lymphoma (including mantle cell and follicular lymphoma) across three treatment centers and inflammatory cluster assignment was predictive of disease relapse, progression, or death."),
                  br(),
-                 h4("A manuscript describing this work has been submitted for publication. This section will be updated with more detailed data and guidance on InflaMix usage once published."),
+                 h4("The associated paper is available at https://www.nature.com/articles/s41591-025-03532-x."),
                  br(),
-                 h4("In the meantime, InflaMix should only be used for research purposes only.")
+                 h4("Terms of Use for InflaMix are detailed at https://github.com/vdblab/InflaMix/blob/main/LICENSE. Briefly, InflaMix is intended for educational and research use only and is not yet intended for clinical use or as a medical device.")
         ),
       )
       )
