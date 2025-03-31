@@ -27,7 +27,7 @@ ui <- fluidPage(
         tags$ul(
           tags$li("Please enter atleast 2 lab values to generate a cluster assignment. InflaMix performance has been validated with availability of at least the first 6 labs (Hgb, Albumin, LDH, CRP, ALP, AST)"),
           tags$li("Pre-Infusion means measured within 48 hours before CAR-T infusion."),
-          tags$li("Terms of Use for InflaMix are detailed at https://github.com/vdblab/InflaMix/blob/main/LICENSE. Briefly, InflaMix is intended for educational and research use only and is not yet intended for clinical use or as a medical device."),
+          tags$li("Terms of Use for InflaMix are detailed at: https://github.com/vdblab/InflaMix/blob/main/LICENSE. Briefly, InflaMix is intended for educational and research use only and is not yet intended for clinical use or as a medical device."),
         )
       ),
       br(),
